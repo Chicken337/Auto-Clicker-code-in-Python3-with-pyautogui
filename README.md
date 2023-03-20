@@ -1,5 +1,11 @@
 # Auto-Clicker-code-in-Python3-with-pyautogui
-This simple code can click where ever your cursor is how ever many times you want how ever fast you want
-To edit the speed and amount of times this clicks you will need to do the following:
+This simple code can click where ever your cursor is how fast you want.
+
+To edit the speed you will need to do the following:
 Find the pyautogui.PAUSE(x.xx) code and change those numbers to set the speed. It is measured in seconds.
-To change how many times it clicks find line 10 and change the number in for i in range(xxx): and that will determine how many times it clicks. Be careful with this number!!
+
+Press [ to start clicking, and ] to stop clicking. Also press - to exit the program.
+
+The are all configurable by changing the characters in lines 28, 32, and 36.
+
+By default it clicks at 32CPS. (Clicks per second)
