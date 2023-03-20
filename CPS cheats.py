@@ -10,3 +10,4 @@ time.sleep (3)
 for i in range(400):
     pyautogui.mouseDown(button='left')
     pyautogui.mouseUp(button='left')
+print ("Done! you can now click out of the project.")
